@@ -3,7 +3,7 @@ name: Hello World Workflow
 on: [push]
 
 jobs:
-  say-hello:
+  say-hello,my name is:
     runs-on: ubuntu-latest
 
     steps:
