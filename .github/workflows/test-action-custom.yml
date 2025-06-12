@@ -10,6 +10,6 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run Custom Greet Action
-      uses: yourusername/my-custom-action@main
+      uses: jadalaramani/my-custom-action@main
       with:
         username: "Ramani"
