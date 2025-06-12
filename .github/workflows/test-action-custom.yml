@@ -1,0 +1,15 @@
+name: Test Custom Action
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Run Custom Greet Action
+      uses: yourusername/my-custom-action@main
+      with:
+        username: "Ramani"
