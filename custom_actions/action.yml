@@ -1,0 +1,10 @@
+name: "Greet User"
+description: "A simple action to greet the user"
+author: "Jadala Ramani"
+inputs:
+  username:
+    description: "Name of the user to greet"
+    required: true
+runs:
+  using: "node20"
+  main: "index.js"
